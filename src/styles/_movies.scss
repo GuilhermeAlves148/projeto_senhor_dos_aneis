@@ -1,0 +1,29 @@
+.movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 5.6vh;
+
+    @media (max-width:767px) {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    @media (min-width: 768px) and (max-width:1023px) {
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+
+    &__content {
+        padding: 50px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        &__title {
+            padding-top: 24px;
+            padding-bottom: 18px;
+        }
+    }
+
+}

@@ -5,12 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="hero">
-        <div class="hero__container">
-            
+        <div class="hero__content">
+            <div class="hero__content__brand">
+                <img class="hero__content__brand__image" src="src/images/hero/logo.png" alt="Logo">
+                <p class="hero__content__brand__text">
+                    Em uma terra onde sombras se erguem e o mal ameaça dominar, um simples hobbit é encarregado de uma missão épica: destruir um anel poderoso que pode trazer a ruína ao mundo. Com a ajuda de companheiros corajosos, ele embarca em uma jornada perigosa para enfrentar o mal em sua própria terra. O destino da Terra-média está em suas mãos.
+                </p>
+            </div>
         </div>
+    </section>
+    <section class="map">
+        <img class="map__image" src="src/images/map.jfif" alt="map">
+        <div class="map__text">
+            <h2 class="map__text__title">"Um anel para todos governar"</h2>
+            <p>
+                Na vasta e mágica Terra-média, a jornada de Frodo Bolseiro se desdobra em uma narrativa lendária de coragem, amizade e sacrifício. Dos campos verdejantes do Condado aos picos nevados de Erebor, cada lugar é vivo com história e mito. Das batalhas épicas contra o mal às relações profundas entre personagens, a Terra-média cativa e inspira, nos lembrando que, mesmo nos tempos mais sombrios, a esperança e a bondade prevalecem.
+            </p>
+        </div>
+    </section>
+    <section class="movies">
+        <div class="movies__content">
+            <img class="movies__content__poster" src="src/images/filme 1.jpeg">
+            <h1 class="movies__content__title">O Senhor dos Anéis: A Sociedade do Anel</h1>
+            <p>
+                Um humilde hobbit chamado Frodo Bolseiro recebe a tarefa de destruir um poderoso anel que pode conceder poderes malignos ao seu portador. Ele parte em uma jornada perigosa para lançar o anel na Montanha da Perdição, contando com a ajuda de uma comunidade diversa, a Sociedade do Anel.
+            </p>
+        </div>
+        <div class="movies__content">
+            <img class="movies__content__poster" src="src/images/filme 2.jpeg">
+            <h1 class="movies__content__title">O Senhor dos Anéis: As Duas Torres</h1>
+            <p>
+                Separados após uma batalha devastadora, os membros da Sociedade do Anel seguem caminhos diferentes. Enquanto Frodo e seu fiel amigo Sam continuam sua jornada para destruir o anel, o mago Gandalf, o Aragorn e outros se preparam para a grande batalha contra as forças do mal que se aproximam.
+            </p>
+        </div>
+        <div class="movies__content">
+            <img class="movies__content__poster" src="src/images/filme 3.jpeg">
+            <h1 class="movies__content__title">O Senhor dos Anéis: O Retorno do Rei</h1>
+            <p>
+                Conforme a batalha final pelo destino da Terra-média se aproxima, os exércitos do bem e do mal se enfrentam em uma guerra épica. Enquanto isso, Frodo e Sam lutam para chegar à Montanha da Perdição e destruir o anel, enquanto seus amigos se preparam para a última grande batalha contra Sauron e seu exército.
+            </p>
+        </div>
+    </section>
+    <section class="more">
+        <nav class="more__tab">
+            <button data-tab-button="livros" class="more__tab__button more__tab__button--is-active">Livros</button>
+            <button data-tab-button="outros" class="more__tab__button">Outras mídias</button>
+        </nav>
+        <ul data-tab-id="livros" class="more__list more__list--is-active">
+            <li class="more__list__item"><img src="src/images/lotr livro.jpeg" alt="lotr"></li>
+            <li class="more__list__item"><img src="src/images/hobbit.jpeg" alt="hobbit"></li>
+            <li class="more__list__item"><img src="src/images/silmarillion.jpeg" alt="silmarillion"></li>
+        </ul>
+        <ul data-tab-id="outros" class="more__list">
+            <li class="more__list__item"><img src="src/images/o hobbit filme.jpeg" alt="hobbit-filme"></li>
+            <li class="more__list__item"><img src="src/images/aneis de poder.jpeg" alt="aneis-de-poder"></li>
+            <li class="more__list__item"><img src="src/images/sombras de mordor.jpeg" alt="sombras-de-mordor"></li>
+        </ul>
     </section>
     <script src="dist/js/main.js"></script>
 </body>

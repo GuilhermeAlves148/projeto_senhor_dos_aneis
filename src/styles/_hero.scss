@@ -5,7 +5,7 @@
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -54px;
+
 
     @media (max-width: 767px) {
         background-image: url(/src/images/hero/hero-mobile.png);
@@ -24,6 +24,23 @@
     }
     @media (width: 768px) and (height:1024px) {
         background-size: cover;
+    }
+
+    &__content {
+        max-width: 420px;
+        padding-top: 24px;
+
+        @media (min-width: 768px) and (max-width:1023px){
+            margin-top: 20vh;
+            margin-left: 15vw;
+
+        }
+
+        &__brand {
+            &__image {
+                max-width: 100%;
+            }
+        }
     }
 
 }
