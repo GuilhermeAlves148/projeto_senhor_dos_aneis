@@ -28,7 +28,8 @@
 
     &__content {
         max-width: 420px;
-        padding-top: 24px;
+        padding-top: 20vh;
+        margin-left: 10vw;
 
         @media (min-width: 768px) and (max-width:1023px){
             margin-top: 20vh;
